@@ -2,7 +2,7 @@
   "name": "SaxGuide - Doigtés Saxophone",
   "short_name": "SaxGuide",
   "description": "L'outil ultime pour les doigtés du saxophone",
-  "start_url": ".",
+  "start_url": "saxguide",
   "display": "standalone",
   "background_color": "#110a05",
   "theme_color": "#ff9900",
