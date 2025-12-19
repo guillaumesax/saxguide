@@ -8,8 +8,7 @@
   "theme_color": "#ff9900",
   "icons": [
     {
-      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KICA8cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgZmlsbD0iIzExMGEwNSIvPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJnb2xkMiIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmZmN2IwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iNDAlIiBzdG9wLWNvbG9yPSIjZmQ5OTAwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzk5MzMwMCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTAsIDIwMCkiPgogICAgPHRleHQgeD0iMCIgeT0iMTIwIiBmaWxsPSJ1cmwoI2dvbGQyKSIgZm9udC1mYW1pbHk9IkFyaWFsIEJsYWNrLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE4MCIgZm9udC13ZWlnaHQ9IjkwMCIgZm9udC1zdHlsZT0iaXRhbGljIiBsZXR0ZXItc3BhY2luZz0iLTIyIj5TQVg8L3RleHQ+CiAgICA8cmVjdCB4PSIwIiB5PSIxNDAiIHdpZHRoPSI0MTAiIGhlaWdodD0iNiIgZmlsbD0iI2ZmYWEwMCIvPgogIDwvZz4KPC9zdmc+",
-      "sizes": "512x512",
+      "src": "saxlogo.png",
       "type": "image/svg+xml",
       "purpose": "any maskable"
     }
