@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <title>SaxGuide - Doigtés Saxophone</title>
 
-    <!-- PWA / iOS -->
+    <!-- Theme / PWA -->
     <meta name="theme-color" content="#110a05" />
+    <link rel="manifest" href="%BASE_URL%manifest.webmanifest" />
+
+    <!-- iOS Web App -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="SaxGuide" />
 
-    <!-- Icons + Manifest (Vite + GitHub Pages compatible) -->
+    <!-- Icons -->
     <link rel="apple-touch-icon" href="%BASE_URL%apple-touch-icon.png" />
     <link rel="icon" type="image/png" href="%BASE_URL%apple-touch-icon.png" />
-    <link rel="manifest" href="%BASE_URL%manifest.webmanifest" />
 
+    <!-- Tailwind + Fonts -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
@@ -51,6 +54,7 @@
       }
     </style>
 
+    <!-- Importmap -->
     <script type="importmap">
       {
         "imports": {
@@ -63,11 +67,14 @@
       }
     </script>
 
-    <!-- IMPORTANT: use %BASE_URL% for GitHub Pages subpath -->
-    <link rel="stylesheet" href="/index.css">
-</head>
+    <!-- IMPORTANT (Vite): keep root paths for entry files -->
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+
   <body>
     <div id="root"></div>
+
+    <!-- IMPORTANT (Vite): keep root paths for entry files -->
     <script type="module" src="/index.tsx"></script>
   </body>
 </html>
